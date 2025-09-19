@@ -2,16 +2,22 @@
 
 ## Abstract
 
-This is an interactive, simplified simulation of nuclear reactor physics designed to demonstrate the fundamental principles behind the Chernobyl disaster. Built using Phaser 3 game engine with React and TypeScript, this educational tool visualizes neutron interactions, nuclear fission chain reactions, and control rod mechanics in a 2D reactor core environment.
+This educational simulator provides an interactive visualization of the nuclear physics principles that led to the Chernobyl disaster, making complex reactor dynamics accessible through visual storytelling. By observing particle movements and chain reactions in real-time, users can develop an intuitive understanding of how nuclear reactors operate and what makes them potentially dangerous.
 
-The simulation models key nuclear physics concepts including:
-- **Neutron emission and decay**: Free neutrons with limited lifetimes that can trigger fission events
-- **Nuclear fission chain reactions**: Fissile uranium-235 nuclei that release multiple neutrons when struck
-- **Control rod absorption**: Cadmium/boron control rods that absorb neutrons to regulate reactivity
-- **Fuel enrichment cycles**: Automatic replenishment of fissile material representing fuel rod behavior
-- **Spontaneous neutron generation**: Background neutron flux from non-fissile materials
+The simulation demonstrates the delicate balance required to maintain a controlled nuclear reaction. Users witness how neutrons released from splitting uranium atoms can trigger a cascade of further fissions, creating the chain reaction that powers nuclear reactors. Through interactive control rods that can be raised or lowered, the simulator shows how operators regulate this process by absorbing excess neutrons to prevent runaway reactions.
 
-The reactor core consists of a 42×24 grid of nuclear fuel assemblies with approximately 7% U-235 enrichment (higher than typical commercial reactors to demonstrate criticality). Visual and audio feedback includes Geiger counter clicks for neutron detection and impact sounds for control rod interactions. The simplified physics model demonstrates how removal of control rods can lead to exponential neutron multiplication - the fundamental mechanism behind reactor power excursions like the one that caused the Chernobyl disaster.
+Most critically, the simulation models the unique and fatal flaw of the RBMK reactor design used at Chernobyl: the positive void coefficient. As water in the reactor heats and turns to steam, instead of slowing the reaction as in most reactor designs, the RBMK actually accelerates it. This creates a dangerous feedback loop where increasing heat leads to more steam, which increases reactivity, generating even more heat. This counterintuitive behavior, combined with operator errors and design flaws, transformed what should have been a routine safety test into history's worst nuclear accident.
+
+The visual representation shows neutrons as moving particles, fissile uranium as reactive elements that split when struck, and water as both a neutron moderator and heat sink. Control rods appear as barriers that can capture neutrons, while moderator rods influence neutron behavior. The transformation of water to steam is depicted through color changes, allowing users to see the dangerous steam voids form and understand their destabilizing effect on the reactor.
+
+Through this interactive experience, users gain insight into:
+- Why nuclear reactors require constant, precise control to remain stable
+- How the absence of control mechanisms leads to exponential power increases
+- Why certain reactor designs are inherently safer than others
+- The cascading nature of nuclear accidents and how small changes can have catastrophic consequences
+- The fundamental tension between power generation and safety in nuclear engineering
+
+The simulator serves as both an educational tool and a memorial, helping people understand not just what happened at Chernobyl, but why it happened, through direct interaction with the underlying physics rather than abstract explanations.
 
 ## Running the Simulation
 
