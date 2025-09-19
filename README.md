@@ -1,5 +1,7 @@
 # Chernobyl Reactor Simulator
 
+🔴 **[Live Demo: https://macbury.github.io/ChernobylReactorSim/](https://macbury.github.io/ChernobylReactorSim/)**
+
 ## Abstract
 
 This educational simulator provides an interactive visualization of the nuclear physics principles that led to the Chernobyl disaster, making complex reactor dynamics accessible through visual storytelling. By observing particle movements and chain reactions in real-time, users can develop an intuitive understanding of how nuclear reactors operate and what makes them potentially dangerous.
