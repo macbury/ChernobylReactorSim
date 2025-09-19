@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite'
 
 const phasermsg = () => {
     return {
@@ -21,7 +22,8 @@ export default defineConfig({
     base: './',
     plugins: [
         react(),
-        phasermsg()
+        phasermsg(),
+        tailwindcss()
     ],
     logLevel: 'warning',
     build: {
